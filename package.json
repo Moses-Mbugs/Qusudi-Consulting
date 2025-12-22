@@ -5,11 +5,13 @@
   "type": "module",
   "homepage": "https://moses-mbugs.github.io/Qusudi-Consulting",
   "scripts": {
-       "dev": "vite",
-       "build": "vite build",
-       "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-       "preview": "vite preview"
-     },
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "lucide-react": "0.522.0",
     "react": "^18.3.1",
