@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
 
+  
+  "homepage": "https://moses-mbugs.github.io/Qusudi-Consulting",
+
   "scripts": {
   "dev": "vite",
   "build": "vite build",
@@ -18,7 +21,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  
+
   "devDependencies": {
     "@types/node": "^20.11.18",
     "@types/react": "^18.3.1",
