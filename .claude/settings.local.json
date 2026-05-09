@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"e:\\\\2025\\\\websites\\\\Catherine\\\\qusudi\" -Recurse -Exclude \"node_modules\", \".git\")",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)",
+      "Bash(Get-ChildItem -Recurse \"e:\\\\2025\\\\websites\\\\Catherine\\\\qusudi\\\\src\")",
+      "Bash(Select-Object FullName)",
+      "PowerShell(New-Item -ItemType Directory -Path \"e:\\\\2025\\\\websites\\\\Catherine\\\\qusudi\\\\public\" -Force)",
+      "PowerShell(Copy-Item \"E:\\\\2026\\\\Website\\\\qwerty\\\\542229dd-4f7f-489d-b7d4-705403b930e1\\\\public\\\\Headshot_pic_4_\\(1\\).jpg\" -Destination \"e:\\\\2025\\\\websites\\\\Catherine\\\\qusudi\\\\public\\\\Headshot_pic_4_\\(1\\).jpg\" -Force)",
+      "PowerShell(if \\($?\\) { \"Copied successfully\" } else { \"Copy failed\" })"
+    ]
+  }
+}
